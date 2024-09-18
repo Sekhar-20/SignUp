@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/title-logo.png">
+    <title>Registration form</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/title-logo.png">
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Outfit:wght@100..900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#">Sign in</a>
+        </nav>
+    </header>
+    <Form method="post">
+        <h2>Sign Up</h2><br>
+        <div>Full Name:</div>
+        <input type="text" name="fname" class="input" placeholder="Enter your First name" value="" required><br>
+        <div>Mobile Number:</div>
+        <input type="text" name="contact" class="input" placeholder="Enter your Mobile Number" value="" required><br>
+        <div>Email:</div>
+        <input type="email" name="mail" class="input" placeholder="Enter your Email" value=""><br>
+        <div>Create Password:</div>
+        <input type="password" name="create_password" class="input" placeholder="Create your Password" value="" required><br>
+        <div>Confirm Password:</div>
+        <input type="password" name="confirm_password" class="input" placeholder="Confirm your Password" value="" required><br>
+        <div>Address:</div>
+        <textarea name="address" class="input" placeholder="Enter your address"></textarea><br>
+        <div class="user_type">User type:
+            <input type="radio" class="type" name="user_type" value="0"><span>Seller</span>
+            <input type="radio" class="type" name="user_type" value="1"><span>Buyer</span><br>
+        </div>
+        <div class="profile">User Image:
+            <input type="file" name="user_image" required><br>
+        </div>
+        <div>Current Date:</div>
+        <input type="date" class="input" name="current_date" required><br>
+        <input type="submit" class="submit_button" name="submit" value="Submit">
+    </Form>
+    <footer>
+        <p>2024 &copy;, Chandra Sekhar B</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/chandra-sekhar20/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sekhar-20" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
